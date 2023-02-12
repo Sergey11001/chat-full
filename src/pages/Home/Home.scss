@@ -1,0 +1,70 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  &__top {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+    h2 {
+      margin-bottom: 5px;
+    }
+  }
+
+  .block {
+    width: 430px;
+    .auth__input {
+      margin-bottom: 10px;
+      span{
+        margin-right: 5px;
+        svg{
+          fill:#d9d9d9;
+        }
+      }
+    }
+
+    .reg--href {
+      color: #1677ff;
+      font-size: 14px;
+    }
+
+    .link__wrapper {
+      text-align: center;
+      .login--href {
+        text-align: center;
+        color: #b6b6b6;
+        font-size: 14px;
+      }
+    }
+
+    .auth__success--block{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 400px;
+      .inf{
+        svg{
+          width: 50px;
+          height: 50px;
+          margin-bottom: 30px;
+        }
+      }
+
+      .block--title{
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .mail--send{
+        text-align: center;
+        color: #b6b6b6;
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+
+  }
+}
